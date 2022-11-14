@@ -23,7 +23,7 @@
 <h3>Short sweet headline with 🎇🎉</h3>
 
 <figure>
-  <img src= "images/screenshot.jpg" alt="rofi2k Demo">
+  <img src= "images/screenshot.png" alt="rofi2k Demo">
   <br/>
   <figcaption>rofi2k screenshot</figcaption>
 </figure>
