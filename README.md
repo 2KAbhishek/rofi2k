@@ -90,6 +90,8 @@ rofi2k was inspired by posts on r/unixporn and a need for a functional applicati
 - [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
 - [awesome2k](https://github.com/2kabhishek/awesome2k) — Tiling Window Manager
 
+<hr>
+
 <div align="center">
 
 <strong>⭐ hit the star button if you found this useful ⭐</strong><br>
