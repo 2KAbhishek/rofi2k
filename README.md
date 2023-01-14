@@ -61,8 +61,6 @@ If you already have a rofi config, append the lines in `config.rasi` and copy ov
 
 You can invoke `rofi` directly from the command line, but it is recommended to have a keybinding configured.
 
-My recommended binding is <kbd>Super</kbd> + <kbd>a</kbd>.
-
 If you want to look at examples, check `keys.lua` in [awesome2k](https://github.com/2kabhishek/awesome2k)
 
 | Keybinding | Description |
