@@ -43,7 +43,7 @@ rofi2k is an universal application launcher based on rofi, has modern and minima
 
 ### ⚡ Requirements
 
-- rofi
+- [rofi](https://github.com/davatorium/rofi)
 - [rofi-emoji](https://github.com/Mange/rofi-emoji) for using emoji search
 
 ### 🚀 Installation
