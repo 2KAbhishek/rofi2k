@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/rofi2k/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/rofi2k?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Your Universal Launchpad 🛸🚀</h3>
 
 <figure>
   <img src= "images/screenshot.png" alt="rofi2k Demo">
@@ -32,17 +32,19 @@
 
 ## What is this
 
-rofi2k is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+rofi2k is an universal application launcher based on rofi, has modern and minimalistic aesthetics.
 
 ## Inspiration
 
-rofi2k was inspired by `<reason/idea>`.
+rofi2k was inspired by posts on r/unixporn.
+
+Wanted something both functional and pretty.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `rofi`
 
 ## Getting rofi2k
 
@@ -51,55 +53,42 @@ To get rofi2k, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/rofi2k
 cd rofi2k
-<install_command>
+# Install
+ln -sfnv $PWD/rofi2k ~/.config/rofi
 ```
+
+If you already have a rofi config, append the lines in `config.rasi` and copy over `themes`.
 
 ## Using rofi2k
 
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
+You can invoke `rofi` directly from the command line, but it is recommended to have a keybinding configured.
 
-FLAGS:
-    -h, --help              Prints help information.
+My recommended binding is <kbd>Super</kbd> + <kbd>a</kbd>.
 
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
+If you want to look at examples, check `keys.lua` in [awesome2k](https://github.com/2kabhishek/awesome2k)
 
 ## How it was built
 
-rofi2k was built using `<tech/library>`
+rofi2k was built using `nvim`
 
 ## Challenges faced
 
-While building rofi2k the main challenges were `<issue/difficulty>`
+Battling my OCD of trying to get everything just right. 😆
 
 ## What I learned
 
-While building rofi2k I `<learned/accomplished>` about `<learning/accomplishment>`
+- Learned about the rofi ecosystem
 
 ## What's next
 
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+You tell me!.
 
 Hit the ⭐ button if you found this useful.
 
 ## More Info
+
+- My awesome wm configs [awesome2k](https://github.com/2kabhishek/awesome2k)
+- Parent [Dotfiles](https://github.com/2kabhishek/Dotfiles)
 
 <div align="center">
 
