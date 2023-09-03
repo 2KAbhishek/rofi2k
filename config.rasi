@@ -1,6 +1,6 @@
 configuration {
 /*---- General setting ----*/
-    modi: "drun,window,filebrowser,run,emoji";
+    modi: "drun,window,filebrowser,run,emoji,calc";
     case-sensitive: false;
     cycle: true;
     filter: "";
@@ -55,9 +55,9 @@ configuration {
     window-thumbnail: false;
 
 /*---- Combi settings ----*/
-/*  combi-modi: "window,run";*/
-/*  combi-hide-mode-prefix: false;*/
-/*  combi-display-format: "{mode} {text}";*/
+    combi-modi: "window,run";
+    combi-hide-mode-prefix: false;
+    combi-display-format: "{mode} {text}";
 
 /*---- History and Sorting ----*/
     disable-history: false;
@@ -70,10 +70,10 @@ configuration {
     display-filebrowser:        " ";
     display-run:                " ";
     display-emoji:              " ";
-    display-windowcd: "Window CD";
-    display-ssh: "SSH";
-    display-combi: "Combi";
-    display-keys: "Keys";
+    display-calc:               " ";
+    display-ssh:                " ";
+    display-combi:              " ";
+    display-keys:               " ";
 
 /*---- Misc setting ----*/
     terminal: "rofi-sensible-terminal";
