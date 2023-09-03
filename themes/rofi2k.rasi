@@ -35,6 +35,7 @@ window {
     anchor:                      center;
     fullscreen:                  false;
     width:                       640px;
+    height:                      480px;
     x-offset:                    0px;
     y-offset:                    0px;
 
