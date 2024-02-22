@@ -45,29 +45,49 @@ rofi2k is an universal application launcher based on rofi, has modern and minima
 
 - [rofi](https://github.com/davatorium/rofi)
 - [rofi-emoji](https://github.com/Mange/rofi-emoji) for using emoji search
+- [rofi-calc](https://github.com/svenstaro/rofi-calc) for using calculator
 
 ### 🚀 Installation
 
 ```bash
 git clone https://github.com/2kabhishek/rofi2k
-cd rofi2k
 # Install
 ln -sfnv $PWD/rofi2k ~/.config/rofi
+# Run
+rofi -show
 ```
 
 If you already have a rofi config, append the lines in `config.rasi` and copy over `themes`.
 
 ### 💻 Usage
 
+To run rofi do `rofi -show mode`
+
+#### 🤖 Modes
+
+- drun: Launch apps
+- window: Window switcher
+- filebrowser: File explorer
+- run: Launch commands
+- emoji: Emoji search
+- calc: Calculator
+- ssh: Manage SSH sessions
+- combi: Combo modes
+- keys: Keyboard shortcuts
+
+By default drun, window, filebrowser and run modes are enabled, to add more simply edit the [config.rasi](./config.rasi) file
+
+#### ⌨️ Keybindings
+
 You can invoke `rofi` directly from the command line, but it is recommended to have a keybinding configured.
 
-If you want to look at examples, check `keys.lua` in [awesome2k](https://github.com/2kabhishek/awesome2k)
+Here's my recommended key bindings
 
-| Keybinding | Description |
-| ---------- | ----------- |
-| <kbd>Super</kbd> + <kbd>a</kbd> | Application Launcher |
-| <kbd>Super</kbd> + <kbd>Tab</kbd> | Window Switcher |
-| <kbd>Super</kbd> + <kbd>.</kbd> | Emoji Search |
+| Keybinding | Description | Command |
+| ---------- | ----------- | --------|
+| <kbd>Super</kbd> + <kbd>Space</kbd> | Application Launcher | `rofi -show drun` |
+| <kbd>Super</kbd> + <kbd>Tab</kbd> | Window Switcher | `rofi -show window` |
+| <kbd>Super</kbd> + <kbd>.</kbd> | Emoji Search | `rofi -show emoji` |
 
 ## What's Next
 
@@ -86,7 +106,7 @@ rofi2k was inspired by posts on r/unixporn and a need for a functional applicati
 
 ### 🧰 Tooling
 
-- [Dotfiles](https://github.com/2kabhishek/Dotfiles) — Dev Environment
+- [dots2k](https://github.com/2kabhishek/dots2k) — Dev Environment
 - [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
 - [awesome2k](https://github.com/2kabhishek/awesome2k) — Tiling Window Manager
 
