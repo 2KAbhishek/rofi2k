@@ -1,0 +1,105 @@
+/*----- Global Properties -----*/
+* {
+    border-color: #1688f0;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #ffffff;
+}
+
+/*----- Main Window -----*/
+window {
+    background-color: rgba(0, 0, 0, 0.87);
+    border: 2px solid #1688f0;
+    border-radius: 6px;
+    min-width: 640px; /* Changed from width */
+    min-height: 480px; /* Changed from height */
+    margin: 0;
+    padding: 0;
+}
+
+/*----- Main Box -----*/
+mainbox {
+    margin: 0;
+    padding: 12px;
+    background-color: transparent;
+}
+
+/*----- Inputbar -----*/
+inputbar {
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #1688f0;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/*----- Listview -----*/
+listview {
+    margin: 0;
+    padding: 8px;
+    border: 2px solid #2a2a2f;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/*----- Scrollbar -----*/
+scrollbar {
+    border-radius: 6px;
+    background-color: rgba(16, 16, 16, 0.87);
+}
+
+/*----- Elements -----*/
+element {
+    margin: 0;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+element.normal {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #ffffff;
+}
+
+element.urgent {
+    background-color: #f06b74;
+    color: #000000;
+}
+
+element.active {
+    background-color: #98d379;
+    color: #000000;
+}
+
+element.selected {
+    background-color: #1688f0;
+    color: #000000;
+}
+
+/*----- Mode Switcher -----*/
+mode-switcher {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/*----- Message -----*/
+message {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/*----- Textbox -----*/
+textbox {
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 6px;
+    background-color: rgba(16, 16, 16, 0.87);
+    color: #ffffff;
+}
